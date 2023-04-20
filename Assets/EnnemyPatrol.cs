@@ -16,7 +16,7 @@ public class EnnemyPatrol : MonoBehaviour
         target = waypoints[0];
     }
 
-    // Update is called once per frame
+    // Update is called once perframe
     void Update()
     {
         Vector3 dir = target.position - transform.position;
